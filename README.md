@@ -1,84 +1,70 @@
-# Kidlee DApp
-Kidlee is an educational decentralized application (DApp) designed to make learning coding fun and interactive for kids. It introduces basic coding concepts using HTML, CSS, and JavaScript through engaging lessons and activities. The app also features tokenization to reward kids for completing lessons, making the learning process both educational and rewarding.
+# Getting Started with Create React App
 
-## Table of Contents
-1. Demo
-2. Features
-3. Technologies Used
-4. Installation
-5. Usage
-6. Screenshots
-7. Contact
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 1. Demo
-You can check out a live demo of Kidlee here  [Kidlee Demo](https://youtu.be/N8D9YpwOC9E).
+## Available Scripts
 
-## 2. Features
-### Interactive Lessons:
-Teaches HTML, CSS, and JavaScript through step-by-step instructions and interactive code editors.
-Kids can see real-time previews of their code as they learn.
-### Tokenization:
-Kids earn tokens as they complete lessons, which can be redeemed for fun rewards within the app.
-### Secure Execution:
-The app safely runs JavaScript code in a sandboxed environment to prevent security issues.
-### User-Friendly Interface:
-A colorful, kid-friendly design with an intuitive navigation system.
+In the project directory, you can run:
 
-### Gamification:
-The app includes simple games and interactive elements that make learning more engaging.
+### `npm start`
 
-### Responsive Design:
-Works seamlessly on both desktop and mobile devices.
-## 3. Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Frontend:
-- React.js
-- Material-UI
-- React Router
-- Web3.js
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Blockchain Integration:
-- Chainlink Plugin for price feeds
-- Web3 for Ethereum integration
+### `npm test`
 
-### Hosting & Deployment:
-[Fleek](app.fleek.xyz)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## 4. Installation
-### Prerequisites
-1. Node.js and npm installed on your machine.
-2. MetaMask or another Ethereum wallet installed in your browser.
-3. Clone the Repository
-git clone https://github.com/Pazil24/kiddie-dapp.git
-4. cd kiddie-dapp
-### Install Dependencies
-- npm install
-### Start the Development Server
-- npm start
-The app should now be running on http://localhost:3000.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 5. Usage
-#### 1. Navigate through the lessons: Start from the basics and gradually move to more advanced topics. Each lesson includes interactive elements where you can practice what you've learned.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### 2. Earn Tokens: Complete lessons to earn tokens, which can be redeemed for rewards within the app.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### 3. Finish the Course: Upon completing all the lessons, redeem your tokens and see your rewards on the home page.
+### `npm run eject`
 
-## 6. Screenshots
-![Home Page](./src/assets/screenshots/Screenshot%20(127).png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-![Html-css Basics](./src/assets/screenshots/Html-css-basics.png)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![Tokenized Advanced Course](./src/assets/screenshots/Advanced-course.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-![Lesson Interface](./src/assets/screenshots/Lesson-interface.png)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-![Footer](./src/assets/screenshots/Footer.png)
+## Learn More
 
-## 7. Contact
-If you have any questions, feel free to reach out:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- GitHub: Pazil24
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- LinkedIn: [Priscilla Azilafu](https://www.linkedin.com/in/priscilla-azilafu)
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
